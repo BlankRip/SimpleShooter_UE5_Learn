@@ -4,6 +4,7 @@
 #include "Gun.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Engine/DamageEvents.h"
 
 // Sets default values
 AGun::AGun() {

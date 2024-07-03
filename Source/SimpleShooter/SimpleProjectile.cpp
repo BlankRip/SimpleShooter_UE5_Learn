@@ -2,6 +2,7 @@
 
 
 #include "SimpleProjectile.h"
+#include "Engine/DamageEvents.h"
 
 void ASimpleProjectile::OnImpact(AActor* hitActor) {
 	Super::OnImpact(hitActor);

@@ -4,6 +4,7 @@
 #include "HitScanGun.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
+#include "Engine/DamageEvents.h"
 
 void AHitScanGun::BeginPlay() {
 	Super::BeginPlay();

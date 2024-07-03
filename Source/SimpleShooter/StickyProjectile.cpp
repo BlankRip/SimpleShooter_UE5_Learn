@@ -5,6 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/SphereComponent.h"
 #include "ShooterCharacter.h"
+#include "Engine/DamageEvents.h"
 
 void AStickyProjectile::BeginPlay() {
 	Super::BeginPlay();

@@ -8,7 +8,8 @@ public class SimpleShooterTarget : TargetRules
 	public SimpleShooterTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "SimpleShooter" } );
+		DefaultBuildSettings = BuildSettingsVersion.V5;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+		ExtraModuleNames.Add( "SimpleShooter" );
 	}
 }
