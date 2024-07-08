@@ -8,6 +8,7 @@
 
 UBTService_PlayerLocation::UBTService_PlayerLocation() {
 	NodeName = TEXT("Update Player Location");
+	BlackboardKey.AddVectorFilter(this, GET_MEMBER_NAME_CHECKED(UBTService_PlayerLocation, BlackboardKey));
 }
 
 void UBTService_PlayerLocation::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) {
